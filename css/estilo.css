@@ -1,0 +1,16 @@
+@font-face {
+  font-family: titulos;
+  src: url('titulos.ttf');
+}
+@font-face {
+  font-family: texto;
+  src: url('texto.otf');
+}
+body {
+  background-color: #0B0C1A;
+  color: #F5F6FA;
+  font-family: texto;
+  margin: 0;
+  height: 100%;
+}
+
