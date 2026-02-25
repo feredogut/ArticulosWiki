@@ -1,0 +1,128 @@
+/* ===============================
+   RESET BASICO
+================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   CONFIGURACION GENERAL
+================================= */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.7;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 40px 20px;
+}
+
+/* Contenedor central */
+body > * {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===============================
+   TITULOS
+================================= */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #7dd3fc;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #bae6fd;
+}
+
+/* ===============================
+   PARRAFOS Y LISTAS
+================================= */
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===============================
+   IMAGENES
+================================= */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+}
+
+/* ===============================
+   ENLACES
+================================= */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   TABLAS (para futuros articulos)
+================================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #334155;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1e293b;
+}
+
+/* ===============================
+   RESPONSIVE
+================================= */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
